@@ -1,0 +1,57 @@
+form {
+	font-size: 0;
+	width: 220px;
+	margin : 0px auto;
+}
+
+p {
+	font-size: 17px;
+	margin : 0px;
+	display: inline-block;
+}
+
+h1 {
+	margin : 200px auto 0px auto;
+	text-align: center;
+}
+
+table {
+	width: 250px;
+	margin: 10px auto;	
+}
+
+a {
+	display: inline-block;
+	width: 50px;
+	margin: 0 0 0 65vw;
+}
+
+.error_field{
+	margin: 3px;
+	display: inline-block;
+	width: 220px;
+	height: 20px;
+	font-size: 12px;
+	line-height: 12px;
+	color: red;
+}
+
+
+#submit_button, #reset_button {
+	width: 43px;
+	height :25px;
+	float: right;
+	margin: 0px 0px 0px 10px;
+}
+
+#submit_button:hover, #reset_button:hover {
+	cursor: pointer;
+}
+
+#username, #stuid, #phone, #email {
+	width: 220px;
+	height: 20px;
+	margin: 0;
+	border-radius: 3px;
+}
+
